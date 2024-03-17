@@ -10,7 +10,21 @@ The primary objective of this analysis is to identify factors influencing custom
 
 ## Data Overview
 
-The dataset comprises five tables obtained from IBM Telco Customer Churn, providing essential information about each customer, including personal details, geographical location, service subscriptions, and satisfaction metrics. It also includes churn-related attributes such as Churn Score, Churn Category, CLTV, and Churn Reason.
+- **The Telco customer churn data module is composed of 5 tables:**
+
+    - Demographics
+    - Location
+    - Population
+    - Services
+    - Status
+
+- **These tables are separated into multiple files:**
+
+    - ```Telco_customer_churn_demographics.xlsx```
+    - ```Telco_customer_churn_location.xlsx```
+    - ```Telco_customer_churn_population.xlsx```
+    - ```Telco_customer_churn_services.xlsx```
+    - ```Telco_customer_churn_status.xlsx```
 
 ## Methodology
 
